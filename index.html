@@ -19,14 +19,20 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">
+          Stewart Murrie
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+
     </div>
   </nav>
   <div class="content container">
@@ -35,20 +41,13 @@
     <div class="row frontmatter">
 
       <div class="col-xs-12">
-        <h1 class="text-primary">Stewart Murrie</h1>
+        <h1 class="text-primary" id="about">Stewart Murrie</h1>
         <h2 class="text-muted">Designing products for people</h2>
-        <address class="">
-          <a href="mailto:stew@murrie.org?subject=I saw your portfolio and..." target="_blank">stew@murrie.org</a>
-          <br>
-        </address>
-        <a class="btn btn-default" href="https://twitter.com/stewartmurrie" role="button" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a class="btn btn-default" href="https://www.linkedin.com/in/murrie" role="button" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <!-- TODO figure out the FCC icon -->
-        <a class="btn btn-default" href="https://www.freecodecamp.com/stewartmurrie" role="button" target="_blank"> Free Code Camp</a>
+        <p>Hello, I'm Stewart and I like making things more useable and useful.</p>
       </div>
     </div>
 
-    <div class="row projects">
+    <div class="row projects" id="projects">
       <div class="col-xs-12">
         <h1 class="text-primary">Professional Projects</h1>
         <p>Here are some of the professional projects I've worked on recently.</p>
@@ -132,7 +131,17 @@
       </div>
 
     </div>
-
+    <div class="div" id="contact">
+      <h1 class="text-primary">Contact</h1>
+      <address class="">
+        <a href="mailto:stew@murrie.org?subject=I saw your portfolio and..." target="_blank">stew@murrie.org</a>
+        <br>
+      </address>
+      <a class="btn btn-default" href="https://twitter.com/stewartmurrie" role="button" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a class="btn btn-default" href="https://www.linkedin.com/in/murrie" role="button" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <!-- TODO figure out the FCC icon -->
+      <a class="btn btn-default" href="https://www.freecodecamp.com/stewartmurrie" role="button" target="_blank"> Free Code Camp</a>
+    </div>
   </div>
   <script src="js/portfolio.js"></script>
   </div>
