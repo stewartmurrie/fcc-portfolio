@@ -29,7 +29,13 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#pro-projects">Professional</a></li>
+            <li><a href="#side-projects">Side</a></li>
+          </ul>
+        </li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -49,7 +55,7 @@
 
     <div class="row projects" id="projects">
       <div class="col-xs-12">
-        <h1 class="text-primary">Professional Projects</h1>
+        <h1 class="text-primary" id="pro-projects">Professional Projects</h1>
         <p>Here are some of the professional projects I've worked on recently.</p>
       </div>
     </div>
@@ -92,7 +98,7 @@
     </div>
 
     <div class="side-projects">
-      <h1 class="text-primary">Side Projects</h1>
+      <h1 class="text-primary" id="side-projects">Side Projects</h1>
       <p>Here are some of the side projects I've worked on for fun or the opportunity to learn something new.</p>
       <div class="row">
         <div class="col-sm-6 col-md-3">
@@ -143,6 +149,8 @@
       <a class="btn btn-default" href="https://www.freecodecamp.com/stewartmurrie" role="button" target="_blank"> Free Code Camp</a>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="js/portfolio.js"></script>
   </div>
   </div>
